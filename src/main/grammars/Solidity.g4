@@ -387,7 +387,7 @@ HexDigits
   : HexCharacter ( '_'? HexCharacter )* ;
 
 NumberUnit
-  : 'wei' | 'ether'
+  : 'wei' | 'ether' | 'trx'
   | 'seconds' | 'minutes' | 'hours' | 'days' | 'weeks' | 'years' ;
 
 Gwei: 'gwei' ;
